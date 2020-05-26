@@ -13,6 +13,7 @@ class XylophoneApp extends StatelessWidget {
     return Expanded(
       child: FlatButton(
         color: color,
+        child: Image.asset('images/pic$soundNumber.png'),
         onPressed: () {
           playSound(soundNumber);
         },
